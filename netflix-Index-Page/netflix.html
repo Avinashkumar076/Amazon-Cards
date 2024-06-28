@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <style>
+        body{
+            background-color: black;
+            background-size:cover;
+        }
+
+        .shade{
+            background-color: rgba(0, 0, 0,0.2);
+            width: 102%;
+            height: 100vh;
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -100px;
+            margin-bottom: -10px;
+        }
+        header{
+            display: flex;
+            color:white;
+            font-family: Arial;
+            padding-left: 200px;
+            padding-top: 20px;
+            padding-right: 180px;
+            justify-content: space-between; 
+        }
+        .brand-title{
+            color:red;
+            font-family: Arial;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .language{
+            font-size: 18px; 
+            font-family: Arial;
+            border-radius: 3px;
+            display: inline-block;
+            border:1px solid white;
+            margin-right: 10px;            
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .signin{
+            font-size: 18px;
+            background-color: red;
+            color:white;
+            border-radius: 3px;
+            padding: 15px;
+            padding-right: 50;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-family: Arial;
+            font-size: 19px;
+        }
+        .title{
+            color:white;
+            font-family: Arial;
+            font-size: 60px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 250px;
+        }
+        .subtitle{
+            color:white;
+            font-size: 25px;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 30px;
+        }
+        .main-title{
+            color:white;
+            font-size: 18px;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .email{
+            display: inline-block;
+            border:1px solid white;
+            background-color:black;
+            color:white;
+            padding-left:20px;
+            padding-right: 200px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 5px;
+            font-family: Arial;
+            font-size: 15px; 
+            margin-left: 470px;
+            margin-top: 30px;
+        }
+        .btn-start{
+            color:white;
+            text-align: center;
+            display: inline-block;
+            background-color: red;
+            padding-top: 13px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            width: 170px;
+            border:1px solid white;
+            text-align: left;
+            font-size: 24px;
+            font-family: Arial;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body background="public/image/netflix.jpg">
+    <div class="shade">
+        <header>
+            <div>
+                <span class="brand-title">NETFLIX</span>
+            </div>
+            <div>
+                <span class="language">
+                    <span class="bi bi-translate"></span>
+                    English
+                    <span class="bi bi-chevron-down"></span>
+                </span>
+                <span class="signin">
+                    Sign In
+                </span>
+            </div>
+        </header>
+        <section>
+            <div class="title">Laughter. Tears. Thrills. Find it all on <br>Netflix.</div>
+            <div class="subtitle">Endless entertainment starts at just ₹ 149. Cancel anytime.</div>
+            <main>
+                <div class="main-title">Ready to watch? Enter your email to create or restart your membership.</div>
+                <span class="email">Email address</span>
+                <span class="btn-start">
+                    Get started
+                <span class="bi bi-chevron-right"></span>
+                </span>
+            </main>
+        </section>
+    </div>
+</body>
+</html>
