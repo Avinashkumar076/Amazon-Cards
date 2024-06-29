@@ -1,0 +1,91 @@
+.nav2icon{
+    font-size: 25px;
+}
+.myaccount{
+    font-size: 15px;
+}
+.cart{
+    font-size: 15px;
+}
+.nav3{
+    font-size: 20px;
+}
+.hov span:hover{
+    color:red;
+    font-weight: bold;
+}
+.headbg{
+    background-image: url("public/image/Cartzilla-background1.png");
+    background-color: rgb(58, 175, 210);
+    background-repeat: no-repeat;   
+    background-position: right top;
+    padding-top: 220px;
+    height: 98vh;
+}
+.car{
+    margin-top: -170px;
+    margin-left: 49px;
+    box-shadow:2px 2px 0px lightgray;
+}
+.converse{
+    background-image: url("public/image/cartzilla-banner-1.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #f6f9fc;
+    width: 900px;
+    height: 227px;
+}
+.addyours{
+    background-image: url("public/image/leaf.jpeg");
+    color: aliceblue;
+    background-position: left;
+}
+.adbtn{
+    margin-left: 90px;
+}
+.cartbg3{
+    background-image:url("public/image/cartzilla-banner-3.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 860px;
+    width: 600px;
+}
+.card{
+    height: 425px;
+    border: none;
+    border-bottom: none;
+    padding-left: 50px;
+}
+.brands{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr; 
+    padding-left: 90px;
+    row-gap: 20px;
+
+}
+.brands img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    height: 120px;
+    width: 250px;
+}
+.red{
+    background-color: lightcoral;
+    width: 50%;
+    height: 250px;
+    padding-top: 35px;
+}
+.blue{
+    background-color: lightblue;
+    width: 50%;
+    height: 250px;
+    padding-top: 35px;
+}
+.ico{
+    font-size: 55px;
+}
+.blog{
+    font-size: 25px;
+}
+.sap{
+    font-size: 18px;
+}
