@@ -1,0 +1,23 @@
+
+body{
+    height: 100vh;
+    color: black;
+}
+#formstyle{
+    backdrop-filter: blur(90px);
+}
+#formstyle:hover{
+    box-shadow: 0px 0px 10px 5px rgba(163, 220, 71, 0.827);
+}
+#btnsignin:hover{
+    border-color: white;
+    box-shadow: 0px 0px 20px 3px green;
+}
+#btnfacebook:hover{
+    border-color: white;
+    box-shadow: 0px 0px 20px 3px blue;
+}
+#btngoogle:hover{
+    border-color: white;
+    box-shadow: 0px 0px 20px 3px blue;
+}
