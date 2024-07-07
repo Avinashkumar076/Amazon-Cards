@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive toolbar</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        nav {
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+        button {
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+        @media screen and (orientation:landscape) {
+            nav{
+                display: flex;
+                justify-content: space-between;
+            }
+            span {
+                margin-right: 20px;
+            }
+            button{
+                display: none;
+            }
+        }
+        @media screen and (orientation:portrait) {
+            nav{
+                display: flex;
+                justify-content: space-between;
+            }
+            .nav-items, .nav-icons {
+                display: none;
+            }
+            button{
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Shopper.</div>
+        <nav class="nav-items">
+            <span>Home</span>
+            <span>Shop</span>
+            <span>Blog</span>
+            <span>Page</span>
+            <span>Docs</span>
+        </nav>
+        <nav class="nav-icons">
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-search"></span>
+            <span class="bi bi-cart"></span>
+        </nav>
+        <button class="bi bi-justify"></button>
+    </nav>
+</body>
+</html>
